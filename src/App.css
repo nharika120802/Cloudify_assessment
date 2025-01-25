@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.app-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.dropdown-multiselect {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.selected-option {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 3px 5px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
+
+.add-option {
+  display: flex;
+  margin-top: 25vh;
+}
+
+.add-option input {
+  flex: 1;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.add-option button {
+  padding: 5px 10px;
+}
+
+.add-row {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-row:hover {
+  background-color: #333;
+}
